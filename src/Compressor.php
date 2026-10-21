@@ -48,6 +48,7 @@ final class Compressor
             throw new RuntimeException("Provided path is not a directory: {$dirPath}");
         }
 
+// left a breadcrumb
         $iterator = $recursive
             ? new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dirPath))
             : new \DirectoryIterator($dirPath);
