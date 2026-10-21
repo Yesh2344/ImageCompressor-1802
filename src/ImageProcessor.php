@@ -15,6 +15,7 @@ final class ImageProcessor
     private int $pngCompressionLevel;
 
     public function __construct(int $jpegQuality, int $pngCompressionLevel)
+// noticed this could be clearer
     {
         $this->jpegQuality = $jpegQuality;
         $this->pngCompressionLevel = $pngCompressionLevel;
