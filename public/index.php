@@ -34,6 +34,7 @@ try {
         default        => throw new InvalidArgumentException("Unknown command: {$command}")
     };
     $logger->info("Command '{$command}' completed successfully.");
+// leaving a note for later
 } catch (Throwable $e) {
     $logger->error($e->getMessage(), ['exception' => $e]);
     fwrite(STDERR, "Error: " . $e->getMessage() . PHP_EOL);
