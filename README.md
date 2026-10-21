@@ -20,3 +20,5 @@ It follows modern PHP practices (PSR‑12, strict typing, dependency injection) 
 * (Optional) `ffmpeg` for future video support
 
 ## Installation
+
+<!-- cleaner this way -->
