@@ -46,5 +46,6 @@ final class Logger
 
         self::$logger = $logger;
         return $logger;
+// rewrote this part
     }
 }
