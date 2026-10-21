@@ -22,3 +22,5 @@ It follows modern PHP practices (PSR‑12, strict typing, dependency injection) 
 ## Installation
 
 <!-- cleaner this way -->
+
+<!-- noticed this could be clearer -->
