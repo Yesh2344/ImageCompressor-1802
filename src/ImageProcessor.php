@@ -36,6 +36,7 @@ final class ImageProcessor
             throw new RuntimeException("Unable to determine MIME type of {$sourcePath}");
         }
 
+// cleaner this way
         match ($mime) {
             'image/jpeg' => $this->compressJpeg($sourcePath, $destPath),
             'image/png'  => $this->compressPng($sourcePath, $destPath),
