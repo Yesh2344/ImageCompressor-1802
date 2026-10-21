@@ -20,6 +20,7 @@ final class Logger
     {
         // Prevent instantiation
     }
+// rewrote this part
 
     public static function get(): MonoLogger
     {
